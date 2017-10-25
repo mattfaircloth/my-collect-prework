@@ -6,7 +6,7 @@ def my_collect(array)
     yield(array[i])
     i = i + 1
   end
-  final_array.push(array)
+  final_array.push(array[i])
 end
 
 
