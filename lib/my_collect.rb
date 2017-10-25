@@ -2,11 +2,11 @@ def my_collect(array)
   i = 0
 
   while i < array.length
-    final_array= []
+    final_array = []
     yield(final_array.push(array[i]))
     i = i + 1
   end
-  final_array
+  array
 end
 
 
