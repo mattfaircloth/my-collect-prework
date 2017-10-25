@@ -14,7 +14,7 @@ my_collect(collection) do |lang|
   lang.upcase
 end
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(array) do |name|
+#array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collect(students) do |name|
   name.split(" ").first
 end
