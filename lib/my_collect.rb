@@ -2,10 +2,10 @@ def my_collect(array)
   i = 0
  final_array = []
   while i < array.length
-    yield(array[i])
+    yield(final_array << array[i])
     i = i + 1
   end
-  array.upcase
+  final_array
 end
 
 
