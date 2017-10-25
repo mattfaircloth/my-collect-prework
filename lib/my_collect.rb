@@ -7,14 +7,3 @@ def my_collect(array)
   end
   final_array
 end
-
-
-languages = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(languages) do |lang|
-  lang.upcase
-end
-
-students = ["Tim Jones", "Tom Smith", "Sophie Johnson", " Antoin Miller"]
-my_collect(students) do |name|
-  name.split(" ").first
-end
